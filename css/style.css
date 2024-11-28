@@ -1,0 +1,450 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 125%;
+   color: #363738;
+}
+
+.showeis h1 {
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 125%;
+   color: #363738;
+}
+
+.showeis p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #6b6b6c;
+}
+
+.showeis h2 {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   color: #363738;
+}
+
+@media (max-width: 1200px) {
+   .showeis {
+       flex-direction: column;
+       gap: 30px;
+   }
+}
+
+.bexruzbek {
+   display: none;
+}
+
+.bexruzbek i {
+   font-size:15px;
+}
+
+@media (max-width: 970px) {
+   .navbar {
+       position: fixed;
+       color: white;
+       top: 0;
+       left: -100%;
+       height: 120vh;
+       width: 60%;
+       flex-direction: column;
+       align-items: center;
+       padding: 50px;
+       
+
+   }
+
+   .bexruzbek {
+       display: block;
+   }
+
+   #bexruzbek {
+       display: none;
+   }
+
+   #bexruzbek:checked ~ .navbar {
+       left: 0;
+   }
+   .logo{
+      width: 150px;
+   }
+}
+
+@media (max-width: 700px) {
+   .showeis{
+      flex-direction: column;
+   }
+   .showeis h1 {
+       font-size: 30px;
+   }
+
+   .showeis p {
+       font-size: 14px;
+       width: 100%;
+   }
+
+   .navbar {
+       width: 80%;
+   }
+
+   .bexruzbek i {
+       font-size: 24px;
+   }
+}
+
+@media (max-width: 500px) {
+   .navbar {
+       font-size: 12px;
+       padding: 20px;
+   }
+
+   .showeis h1 {
+       font-size: 24px;
+   }
+
+   .showeis p {
+       font-size: 12px;
+       line-height: 130%;
+   }
+
+   .bexruzbek i {
+       font-size: 20px;
+   }
+
+   .showeis img {
+       width: 100%;
+       height: auto;
+   }
+}
+@media (max-width: 1200px) {
+    .vant {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .box {
+        display: none;
+    }
+}
+
+@media (max-width: 970px) {
+    .vant {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .box {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    .vant h2 {
+        font-size: 18px;
+    }
+
+    .vant p {
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .vant h2 {
+        font-size: 16px;
+    }
+
+    .vant p {
+        font-size: 12px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+      .get h2{
+         font-weight: 600;
+         font-size: 20px;
+         line-height: 135%;
+         color: #363738;
+      }
+      .get p{
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         color: #6b6b6c;
+         padding-top: 10px;
+      }
+      @media (max-width: 1000px) {
+         .get {
+           grid-template-columns: 1fr; 
+           padding: 15px;
+           width: 90%;
+         }
+       
+         .card1 {
+           width: 60px;
+           height: 60px;
+         }
+       
+         .get h2 {
+           font-size: 18px;
+         }
+       
+         .get p {
+           font-size: 14px; 
+         }
+       }
+       
+       
+       @media (max-width: 250px) {
+         .get {
+           padding: 10px; 
+         }
+       
+         .card1 {
+           width: 50px; 
+           height: 50px;
+         }
+       
+         .get h2 {
+           font-size: 16px; 
+         }
+       
+         .get p {
+           font-size: 12px;
+         }
+       }
+       .text h1{
+         font-weight: 600;
+         font-size: 48px;
+         line-height: 125%;
+         color: #363738;
+       }
+       .text p{
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         color: #6b6b6c;
+       }
+       .getting h1{
+         font-weight: 600;
+         font-size: 20px;
+         line-height: 135%;
+         color: #363738;
+       }
+       .getting p{
+         width: 300px;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         color: #6b6b6c;
+       }
+     .getting h2{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 135%;
+      color: #363738;
+     }
+     .getting .card_want{
+      border-radius: 10px;
+      width:450px;
+      height: 470px;
+      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+      background: #fff;
+     }
+     .getting img{
+       width: 100%;
+     }
+     .cow{
+      border: 3px solid #ffce50;
+      width: 86px;
+      height: 0px;
+     }
+     .getting .fast{
+      line-height: 30px;
+     }
+     @media (max-width: 900px) {
+      .getting {
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      .getting .card_want {
+        width: 100%;
+        height: auto; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+      }
+    
+      .getting img {
+        width: 100%; 
+      }
+    
+      .getting h2 {
+        font-size: 18px;
+      }
+    
+      .getting p {
+        font-size: 14px; 
+        width: auto;
+      }
+    
+
+      .getting .card_want {
+        margin: 0 auto; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+    @media (max-width: 900px){
+      .text{
+         width: 90%;
+
+         h1{
+            font-size: 30px;
+         }
+      p{
+         font-size: 15px;
+      }   
+      }
+     
+    }
+    .vact .cantiner{
+      background: rgba(11, 117, 114, 1);
+      width: 1400px;
+      height: 1050px;
+    }
+    .vact h1{
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 125%;
+      color: #fff;
+    }
+    .vatc p{
+      width: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 150%;
+      color: #6b6b6c;
+    }
+
+    .wad{
+      background: rgba(11, 117, 114, 1);
+      color: white;
+    }
+    .van p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 135%;
+      color: #6b6b6c;
+    }
+    .van h2{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 135%;
+      color: #363738;
+    }
+    @media(max-width:900px){
+      .vact {
+         display: none;
+    }}
+    .not h2{
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 125%;
+      color: #363738;
+    }
+    .tailwind h2{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 125%;
+      color: #363738;
+    }
+    .tailwind .cantiner{
+      padding: 40px;
+      fill: #fff;
+      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    }
+    .tailwind p{
+      width: 600px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #6b6b6c;
+    }
+    
+     @media (max-width: 900px) {
+      .cantiner {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+   
+    
+      .varch p {
+        max-width: 100%;
+      }
+    }
+    @media (max-width: 900px){
+      .not h2{
+         font-size: 25px;
+      }
+    }
+    .footer{
+      background: #0b7572;
+      color: white;
+      line-height: 40px;
+    }
+    .footer h3{
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 150%;
+      letter-spacing: 0.16em;
+      text-transform: capitalize;
+    }
+    .footer li{
+      list-style: none;
+    }
+    .footer a{
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 150%;
+      letter-spacing: 0.16em;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+    }
+    .footer button{
+      width: 248px;
+      height: 27px;width: 248px;
+      height: 50px;
+      background-color: rgba(255, 150, 25, 1);
+    }
+    @media(max-width:900px){
+      .footer{
+         flex-direction: column;
+         width: 90%;
+         margin: auto;
+
+         
+      }
+    
+    }
